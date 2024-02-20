@@ -1,0 +1,12 @@
+import chalk from 'chalk';
+
+const nomeUsuario = 'Antonia';
+const anoAtual = new Date().getFullYear();
+const anoNascimento = 2002;
+const idade = anoAtual - anoNascimento;
+
+if (idade >= 18) {
+    console.log(`Usuario ${(nomeUsuario)} ${chalk.green('esta autorizado')} para fazer a compra`);
+} else { 
+    console.log(`Usuario ${(nomeUsuario)} ${chalk.red('nao esta autorizado')} para fazer a compra.`);
+}
