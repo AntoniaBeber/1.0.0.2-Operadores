@@ -1,0 +1,10 @@
+const comprouTrevisan = false;
+const comprouLeiteFermentado = true;
+
+const cumpriu = comprouLeiteFermentado && comprouLeiteFermentado;
+
+if (cumpriu){
+    console.log('cumpriu o combinado')
+} else {
+    console.log ('não cumpriu com o combinado')
+}
