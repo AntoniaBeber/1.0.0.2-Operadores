@@ -1,0 +1,5 @@
+const alergico = true;
+const naoEhAlergico = !alergico;
+if(!alergico){
+console.log('Nao é alergica')
+}
