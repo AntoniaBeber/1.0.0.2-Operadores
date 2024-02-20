@@ -1,0 +1,10 @@
+const comprouManga = false;
+const comprouAvocado = true;
+
+const cumpriu = comprouAvocado || comprouManga;
+
+if(cumpriu){
+console.log('cumpriu com o pedido ')
+} else {
+console.log('nao cumpriu com o pedido')
+}
